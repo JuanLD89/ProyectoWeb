@@ -11,8 +11,8 @@
     <title>Consolas Retro</title>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
   </head>
 
   <body>
@@ -32,9 +32,21 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav pull-right">
             <li>
-              <a href="" class="btn">CARRITO <span class="badge">0</span></a>
+              <a href="pedidos/index.php" class="btn">Pedidos</a>
+            </li> 
+            <li>
+              <a href="consolas/index.php" class="btn">Consolas</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Cerrar Sesión</a></li>
+                </ul>
             </li> 
           </ul>
+
+
+
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -48,8 +60,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 
   </body>
 </html>

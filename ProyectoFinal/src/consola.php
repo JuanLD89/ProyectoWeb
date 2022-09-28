@@ -16,7 +16,7 @@
 
             //print_r($this->config);
         } 
-        
+
         public function registrar($_params){
             $sql = "INSERT INTO `consolas`(`consola`, `descripcion`, `foto`, `precio`, `empresas`, `fecha`) VALUES (:consola, :descripcion, :foto, :precio, :empresas, :fecha)";  //Desde SQL se sabe como insertar una nueva consola, no se usa el id, porque este autoincrementa, y tampoco el estado, ya que este tiene un valor predeterminado
             //Lo unico que campoa son los datos depuest de VALUE y esto es porque usamos PDO, y reconoce esos datos como parametros
@@ -60,7 +60,7 @@
         }
 
         public function eliminar($id){
-            $sql = "DELETE FROM `consolas` WHERE `id`=:id ";
+            $sql = "DELETE FROM `consolas` WHERE `id`=:id";
             $resultado = $this->cn->prepare($sql);
 
             $_array = array(
